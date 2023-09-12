@@ -27,4 +27,4 @@ jobs:
 
     - name: Deploy to Server
       run: |
-        rsync -avz ./dist/ root@${{ secrets.SSH_HOST }}:/root/github/test-py-cicd; git pull origin main; python main.py"
+        rsync -avz ./dist/ root@${{ secrets.SSH_HOST }}:/root/github/test-py-cicd"
