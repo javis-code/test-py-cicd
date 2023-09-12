@@ -27,4 +27,4 @@ jobs:
 
     - name: Deploy to Server
       run: |
-        rsync -avz ./dist/ root@h29955797.stratoserver.net:/root/github/test-py-cicd
+        rsync -avz ./dist/ root@h2955797.stratoserver.net:/root/github/test-py-cicd
