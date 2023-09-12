@@ -27,4 +27,4 @@ jobs:
 
     - name: Deploy to Server
       run: |
-        ssh root@h2955797.stratoserver.net; cd ~/github/test-py-cicd/; git pull origin main; python main.py
+        ssh root@h2955797.stratoserver.net; cd /root/github/test-py-cicd/; git pull origin main; python main.py
